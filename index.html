@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>School website </title>
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar-inverse" style="position: sticky;top:0;z-index:99999">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="colapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#school_name">SCHOOL NAME </a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#alumni">ALUMNI</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+
+            </ul>
+
+        </div>
+
+
+
+    </nav>
+    <div class="announcment">
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            **Feel Free to ask any questions on school@gmail.com**
+        </marquee>
+    </div>
+    <section id="school_name">
+        <img src="images.png">
+        <h1>ST XAVIER'S </h1>
+        <p>St. Xavier's Senior Secondary School is a Christian minority school under the management of the Jesus, an international Christian Religious Order, known as the Society of Jesus. Our motto is 'Motto: Deus Fortitudo Mea' meaning 'God is my strength'</p>
+        <hr>
+    </section>
+    <section id="videos">
+    <h1>Videos</h1>
+         <iframe src="https://www.youtube.com/embed/PIpWvKg_TL8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video1" height="500" width="100%"> </iframe>
+         <br>
+         <br>
+
+         <iframe height="500" width="100%" src="https://www.youtube.com/embed/uxg2XGucPIY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video2"></iframe>
+    
+    </section>
+    <hr>
+    <section id="alumni">
+        <h1>ALUMNI</h1>
+        <p>Xavier's Alumni is the new name for the Old Boy's Association (OBA), the apex body of the alumni of St. Xavier's School, Jaipur. With a rich and textured history of its own, Xavier's Alumni (XA) has over 4000 members who are spread far and wide to every corner of the earth. The Aim of the Alumni Association is 'to foster and to keep alive the bonds of friendship and understanding among the alumni themselves and between the Alumni and the School.' Membership to the Xavier's Alumni is available to the students who have studied in St. Xavier's School, Jaipur as per the criteria laid down in the XA constitution. The approval of the Principal is required for the students of the passing out batch to become members. Members of the Alumni are granted specified privileges by the school which are mentioned in the X.A. directory. Over the years, the Alumni has organized numerous events encompassing the school boy and girls and the society. It has a calendar of events for each year, which includes career counselling for students of senior classes, debates and quiz contests, essay competition, and numerous other sporting events. It is also alive to the needs of the school, the society and the nation. In addition to the social activities, the Xavier's Alumni organizes a number of activities for the fraternity of its members, such as The Alumni Picnic, the pool-side party, and the Xavier's Ball. the members get together in large numbers with their families at such occasions. The Alumni comes out with a quarterly issue of its own Newsletter with news and views of the Alumni. The associations is a part of the North Zone, All India and World Jesuit Alumni Association.</p>
+    
+    </section>
+     <section id="contact">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0" allowfullscreen=""></iframe>
+
+         <!--ADD bootstrap classes to contact_1 div -->
+         <div class="contact_1 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+             <a href="mailto:my@gmail.com?Subject=Hi">
+                 <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;school@gmail.com</h5>
+             </a>
+
+             <a href="#">
+                 <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;school id </h5>
+             </a>
+         </div>
+         <div class="contact_2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+             <form>
+             <span>Name:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Name" required>
+                 <br>
+                 <br>
+                 <span>Comment:</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Comment" required>
+             <br> <br> <input type="submit" value="submit" class="btn btn-success">
+             
+             </form>
+</div>
+    
